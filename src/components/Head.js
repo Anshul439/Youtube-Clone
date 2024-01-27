@@ -10,18 +10,18 @@ const Head = () => {
   };
 
   return (
-    <div className="grid grid-flow-col p-7 shadow-lg">
-      <div className="flex col-span-1">
+    <div className="grid grid-flow-col p-2 shadow-lg">
+      <div className="flex col-span-1 mt-2 ml-2">
         <img
           onClick={toggleMenuHandler}
           alt="menu"
           src="https://cdn.icon-icons.com/icons2/2596/PNG/512/hamburger_button_menu_icon_155296.png"
-          className="h-8 cursor-pointer"
+          className="h-6 cursor-pointer"
         ></img>
         <img
           alt="youtube-logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
-          className="h-8 mx-2 cursor-pointer"
+          className="h-6 mx-2 cursor-pointer"
         ></img>
       </div>
       <div className="col-span-10 px-10">
