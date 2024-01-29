@@ -4,7 +4,7 @@ const VideoCard = ({ info }) => {
   const { snippet, statistics } = info;
   const { channelTitle, title, thumbnails } = snippet;
 
-  console.log(info);
+  // console.log(info);
   return (
     <div className="p-2 m-2 w-[359px] shadow-lg">
       <img className="rounded-lg" alt="thumbnail" src={thumbnails.medium.url}></img>
